@@ -1,0 +1,12 @@
+export interface Voo {
+    id: number;
+    custo_adulto: number;
+	  custo_meia: number;
+    data_hora_de_ida_partida: string;
+	  data_hora_de_chegada_partida: string;
+	  data_hora_de_ida_volta: string;
+	  data_hora_de_chegada_volta: string;
+    usuarios: Usuario[];
+    destino: Aeroporto;
+	  partida: Aeroporto;
+}
